@@ -1,0 +1,4 @@
+aws-cdk-lib==2.43.1
+aws_cdk.pipelines
+aws_cdk.aws_lambda
+constructs>=10.0.0,<11.0.0
