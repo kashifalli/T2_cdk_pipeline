@@ -1,4 +1,7 @@
-from aws_cdk import (Stack,)
+from aws_cdk import (
+    Stack,
+    aws_codepipeline
+)
 from constructs import Construct
 
 from aws_cdk.pipelines import CodePipeline, CodePipelineSource, ShellStep
