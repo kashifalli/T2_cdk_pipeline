@@ -28,5 +28,5 @@ class MyPipelineStack(Stack):
         testing_stage.add_post(ManualApprovalStep('approval'))
 
         testing_stage.add_post(ShellStep("validate",
-            commands=['curl -Ssf https://my.webservice.com/']
+            commands=['curl -Ssf https://google.com/']
             ))
